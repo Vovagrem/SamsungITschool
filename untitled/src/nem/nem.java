@@ -11,7 +11,7 @@ public class nem {
         int oddCount = 0;
         int evenProduct = 1;
         int digit;
-
+      
         while (n != 0)
         {
             digit = n % 10;
@@ -30,6 +30,8 @@ public class nem {
 
         evenProduct = even ? evenProduct : 0;
 
-        System.out.print(oddCount + " " + evenProduct);
+        System.out.print(oddCount + " " + evenProduct + "\n");
+        
+        System.out.println("GitHUb modified version")
     }
 }
